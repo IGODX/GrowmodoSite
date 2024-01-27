@@ -1,4 +1,8 @@
 {
+  "homepage": "https://igodx.github.io/FeatherSite/GrowmodoSite",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "gh-pages": "^6.1.1"
   }

@@ -19,6 +19,7 @@ body{
 
      .container{
         max-width: 1260px;
+        padding: 0px 60px 0px 60px;
         margin: 0 auto;
      }
      .grid{
@@ -61,7 +62,7 @@ font-weight: 400;
 line-height: 77px;
 letter-spacing: 0em;
 text-align: center;
-width: 895px;
+max-width: 895px;
      }
      .main-content-holder{
         margin-top: 91px;
@@ -202,6 +203,7 @@ max-width: 731px;
      }
      .frustrated-wrapper{
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
      }
 
@@ -252,6 +254,7 @@ line-height: 29px;
 letter-spacing: 0em;
 text-align: left;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 margin-bottom: 100px;
      }
@@ -285,6 +288,7 @@ text-align: left;
     }
      
     .footer-content{
+      flex-wrap: wrap;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -323,6 +327,7 @@ margin-right: 50px;
     }
 
     .footer-lists{
+      flex-wrap: wrap;
         display: flex;
     }
 
