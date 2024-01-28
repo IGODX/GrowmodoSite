@@ -17,6 +17,9 @@
     .discount button{
         height: 34px;
     }
+    .container{
+        max-width: none;
+    }
     .nav ul{
         flex-wrap: wrap;
     }
