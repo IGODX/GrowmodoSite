@@ -152,10 +152,10 @@ margin-right: 133px;
         justify-content: center;
         margin-bottom: 100px;
      }
-     .person{
+     .employee{
         position: relative;
      }
-     .person-bottom {
+     .employee-bottom {
         position: absolute;
   bottom: 18px;
   left: 50%;
@@ -185,7 +185,7 @@ margin-right: 133px;
         background: #C6FF00;
 
      }
-     .person{
+     .employee{
         margin-right: 20px;
      }
      
