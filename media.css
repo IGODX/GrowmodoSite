@@ -5,6 +5,9 @@
 }
 
 @media (max-width:777px) {
+    .header-btn{
+        margin-left: 0px;
+    }
     .block{
         display: none;
     }
