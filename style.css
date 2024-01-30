@@ -126,6 +126,7 @@ margin-right: 133px;
      .discount{
         justify-content: center;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         background: black;
         width: 100%;

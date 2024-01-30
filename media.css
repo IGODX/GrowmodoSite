@@ -6,14 +6,18 @@
 
 @media (max-width:777px) {
     .header-btn{
-        margin-left: 0px;
+        display: none;
     }
     .block{
         display: none;
     }
     .grid{
        display: flex;
+       justify-content: center;
        flex-wrap: wrap;
+    }
+    .nav ul{
+        justify-content: center;
     }
 }
 @media (max-width:600px) {
@@ -28,8 +32,28 @@
     }
 }
 @media (max-width:430px) {
-    .frustrated .container{
+    .container{
         padding: 0 15px;
+    }
+    .main-title{
+        font-size: 34px;
+        max-width: 200px;
+    }
+    .main-content-holder p{
+        max-width: 200px;
+    }
+    .frustrated-title,
+    .frustrated-right h3 {
+        font-size: 49px;
+    }
+    .checks{
+        margin-bottom: 50px;
+    }
+    .fix-that-title{
+        margin-bottom: 49px;
+    }
+    .customize-experience-header p{
+        display: none;
     }
     .discount button{
         height: 68px;
