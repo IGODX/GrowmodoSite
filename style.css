@@ -42,8 +42,12 @@ text-align: center;
      .nav ul li{
         margin-right: 55px;
      }
-
+     .nav ul li a{
+      text-decoration: none;
+      color: black;
+     }
      .header-btn{
+      cursor: pointer;
         margin-left: 223px;
         padding: 10px;
         background-color: black;
@@ -58,8 +62,8 @@ width: 154px;
 
      .main-title{
         font-family: Arial;
+        font-weight: bold;
 font-size: 70px;
-font-weight: 400;
 line-height: 77px;
 letter-spacing: 0em;
 text-align: center;
@@ -142,11 +146,16 @@ margin-right: 133px;
      }
 
      .discount button{
+      cursor: pointer;
         background: #CEFE2E;
         color: black;
         border: none;
         width: 250px;
         height: 25px;
+        transition: background 0.3s ease-in-out;
+     }
+     .discount button:hover{
+      background: #afd826;
      }
 
      .employees{
@@ -257,7 +266,6 @@ line-height: 29px;
 letter-spacing: 0em;
 text-align: left;
 display: flex;
-flex-wrap: wrap;
 justify-content: space-between;
 margin-bottom: 100px;
      }
@@ -370,9 +378,51 @@ margin-right: 50px;
       text-decoration: none;
       display: flex;
     }
+    .banner-button-wrapper {
+      display:flex;
+      justify-content: center;
+      margin-top: 40px;
+      margin-bottom: 50px;
+   }
+  .cta_button.margin-right-10.font-size-20.max-width-270 {
+   width: 320px;
+   max-width: 370px;
+   margin-right: 10px;
+}
 
+.w-button {
+   color: #fff;
+   line-height: inherit;
+   cursor: pointer;
+   background-color: #3898ec;
+   border: 0;
+   border-radius: 0;
+   padding: 9px 15px;
+   text-decoration: none;
+   display: inline-block;
+}
+.cta_button {
+   color: #fff;
+   text-align: center;
+   background-color: #121212;
+   border: 2px solid #121212;
+   border-radius: 5px;
+   padding: 10px 27px;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 22px;
+   transition: all .3s;
+}
+.cta_button.cta-white-bg {
+   color: #121212;
+   background-color: #fff;
+}
+.cta_button:hover {
+   box-shadow: 5px 5px #2468ff;
+}
     .footer-bottom_nav-wrapper {
       justify-content: flex-end;
       align-items: stretch;
       display: flex;
+      flex-wrap: wrap;
   }

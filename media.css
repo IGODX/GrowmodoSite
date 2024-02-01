@@ -2,9 +2,19 @@
     .header-btn{
         margin-left: 10px;
     }
+    .checks{
+        flex-direction: column;
+    }
 }
-
+@media(max-width:828px){
+    .footer-button{
+        margin-bottom: 20px;
+    }
+}
 @media (max-width:777px) {
+    .w-layout-grid{
+        display:block;
+    }
     .header-btn{
         display: none;
     }
