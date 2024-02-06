@@ -155,7 +155,7 @@ margin-right: 133px;
         transition: background 0.3s ease-in-out;
      }
      .discount button:hover{
-      background: #afd826;
+      background:    #afd826;
      }
 
      .employees{
@@ -272,7 +272,7 @@ margin-bottom: 100px;
 
      .checks div{
         display: flex;
-        flex-wrap: wrap;
+         align-items: center;
      }
 
      .checks h3{
@@ -387,6 +387,9 @@ margin-right: 50px;
   .cta_button.margin-right-10.font-size-20.max-width-270 {
    width: 320px;
    max-width: 370px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    margin-right: 10px;
 }
 
